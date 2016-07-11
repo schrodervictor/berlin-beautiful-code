@@ -1,0 +1,17 @@
+QuickCheck: the bad parts
+
+
+Slower than UnitTests (proportinal to the sampling size)
+
+To write Generators can be tedious and error prone
+
+Stable implementations only for some languages
+(Haskell, Erlang, Scala, Clojure, Python)
+
+Doesn't play well with stateful languages
+(works better with functional languages)
+
+Not compatible with TDD discipline
+(tempts to write the tests after)
+
+Tests are not deterministic!!!

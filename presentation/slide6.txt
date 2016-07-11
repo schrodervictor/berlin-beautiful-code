@@ -1,0 +1,17 @@
+QuickCheck: the good parts
+
+
+Great tool to find bugs
+
+Thinking about properties leads to a higher degree
+of abstraction and may improve the architeture
+
+Reduces the need of Data Providers for UnitTests
+
+Generators for all primitive and common types are normally available
+(some implementations can even infer which ones you need)
+
+Achieves something similar to what DbC tries to do, but without
+the runtime overhead and without polluting production code
+
+Claims to make some (all?) UnitTests obsolete

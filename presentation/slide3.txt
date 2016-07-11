@@ -1,0 +1,14 @@
+Introducing: QuickCheck!
+
+QuickCheck was born in the Haskell world in    
+1999, by Koen Claessen and John Hughes in      
+the Chalmers Goeteborgs University, Sweden     
+
+example:                                       
+
+    prop_RevRev xs = reverse (reverse xs) == xs
+      where types = xs::[Int]                  
+
+
+Main> quickCheck prop_RevRev                   
+OK, passed 100 tests.                          

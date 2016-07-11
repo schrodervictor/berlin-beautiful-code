@@ -1,0 +1,19 @@
+Basic concepts:
+
+- QuickCheck is not a library, but a testing strategy  
+
+- Random input + large number of runs = better results 
+
+- Random inputs are provided by "Generators" (monads)  
+
+- "Arbitrary" and "Combinator" are classes/functions   
+  that operates over Generators to compose more complex
+  data types                                           
+
+- Assertions are called "Properties" or "Hypothesis"   
+
+- If a property test passes, it's said that it "holds",
+  if not it is "falsified" by a "counter-example"      
+
+- "Shrink" is the operation of reducing a large set of 
+  counter-examples to its minimum (for easy debugging) 

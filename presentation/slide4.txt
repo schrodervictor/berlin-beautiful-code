@@ -1,0 +1,15 @@
+What is QuickCheck?
+
+- Testing technique invented to test Haskell code    
+  using random input                                 
+
+- Very similar to UnitTests in purpose and syntax,   
+  but it tries to declare general properties that    
+  should hold for any given input                    
+
+- Brute force: will run the same assertion hundreds  
+  of times with different inputs to try to find a    
+  counter-example                                    
+
+- Subset of UnitTests, but due to the abstract nature
+  of its assertions is being called "Property Test"  

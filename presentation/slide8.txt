@@ -1,0 +1,17 @@
+QuickCheck: the bad parts
+
+
+Tests are NOT deterministic!!!
+
+Tests are NOT deterministic!!!
+
+Tests are NOT deterministic!!!
+Tests are NOT deterministic!!!
+
+Tests are NOT deterministic!!!
+Tests are NOT deterministic!!!
+
+Tests are NOT deterministic!!!
+Tests are NOT deterministic!!!
+
+Tests are NOT deterministic!!!

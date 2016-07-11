@@ -1,0 +1,14 @@
+What is UnitTest?
+(I REALLY hope you are not asking this...)
+
+- Automatic tests for single units of code     
+
+- Collection of assertions about the expected  
+  behavior of a program                        
+
+- Written by the developers for the developers 
+
+- Strongly connected with the discipline of TDD
+
+- F.I.R.S.T. (fast, independent, repeatable,   
+  self-validating, timely-written)             

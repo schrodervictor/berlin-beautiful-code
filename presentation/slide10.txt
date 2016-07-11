@@ -1,0 +1,13 @@
+Conclusions:
+
+
+QuickCheck is GREAT! But don't rely on it for your
+TDD workflow or to check if your build is passing
+
+Don't throw away your UnitTests! Really!
+
+Use QuickCheck to find new relevant test cases
+for your safety net of UnitTests
+
+Contribute to the open source implementation
+of QuickCheck in your favorite language
