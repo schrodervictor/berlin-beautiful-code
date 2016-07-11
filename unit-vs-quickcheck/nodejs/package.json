@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "mocha-testcheck": "^0.1.2"
+  }
+}
