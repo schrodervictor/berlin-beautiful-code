@@ -1,0 +1,16 @@
+{
+    "name": "vschroeder/php",
+    "authors": [
+        {
+            "name": "Victor Schröder",
+            "email": "schrodervictor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "require-dev": {
+        "steos/php-quickcheck": "dev-master"
+    }
+}
