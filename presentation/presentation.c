@@ -1,8 +1,7 @@
 #include <ncurses.h>
-#include <stdlib.h>
 #include <string.h>
 
-#define LAST_SLIDE 1
+#define LAST_SLIDE 11
 
 typedef struct _WIN_struct {
         WINDOW *win;
@@ -100,11 +99,11 @@ void setContent(PRES *presentation, int slide) {
 
 void setSignature() {
         int rows, cols;
-        char* msgWritten = "Victor Schroeder - proudly written in C";
+        char* sig = "Victor Schroeder - presentation proudly written in C";
 
         getmaxyx(stdscr, rows, cols);
-        move(rows - 2, cols - strlen(msgWritten) - 2);
-        printw("%s", msgWritten);
+        move(rows - 2, cols - strlen(sig) - 2);
+        printw("%s", sig);
 }
 
 void setPagination(int slide) {
@@ -122,8 +121,8 @@ void drawSlide(int slide) {
 
         setTitle(&presentation);
         setContent(&presentation, slide);
-        setSignature();
         setPagination(slide);
+        setSignature();
 
         refresh();
         wrefresh(presentation.title.win);
