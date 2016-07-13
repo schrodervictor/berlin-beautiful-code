@@ -1,9 +1,11 @@
-.
-=====
+# Example (Erlang)
 
-An OTP library
+You'll need a modern version of Erlang and Rebar3.
 
-Build
------
+## How to run unit tests
 
-    $ rebar3 compile
+    $ rebar3 eunit
+
+## How to run quickcheck tests
+
+    $ rebar3 proper
